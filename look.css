@@ -1,0 +1,41 @@
+body {
+	font: 15px/1.45 "nimbus-sans", sans-serif; /* 300/400/700/900 */
+	max-width: 400px;
+	padding: 40px;
+}
+
+p,
+h1 {
+	margin: 0;
+}
+
+h1 {
+	font-family: "nimbus-sans", sans-serif; /* 400/700/900 */
+	font-size: 20px;
+	line-height: 1;
+	font-weight: 400;
+	margin-bottom: .25em;
+}
+
+h1,
+p,
+ul {
+	opacity: 0;
+	transition: opacity .25s ease-in;
+}
+
+.wf-active h1,
+.wf-active p,
+.wf-active ul {
+	opacity: 1;
+}
+
+a,
+a:visited {
+	color: #555;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}

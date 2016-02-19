@@ -8,10 +8,6 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 	<style>
-		/**
-		 *
-		 *
-		 */
 
 		body {
 			font: 16px/1.45 "nimbus-sans", sans-serif; /* 300/400/700/900 */

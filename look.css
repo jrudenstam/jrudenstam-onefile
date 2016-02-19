@@ -1,7 +1,19 @@
+html {
+	background: #5c068c;
+}
+
 body {
-	font: 15px/1.45 "nimbus-sans", sans-serif; /* 300/400/700/900 */
-	max-width: 400px;
+	font: 16px/1.5 "source-code-pro", sans-serif;
+	font-weight: 300;
+	max-width: 450px;
 	padding: 40px;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+::selection {
+	background: #f1eef6;
+	color: black;
 }
 
 p,
@@ -10,11 +22,11 @@ h1 {
 }
 
 h1 {
-	font-family: "nimbus-sans", sans-serif; /* 400/700/900 */
-	font-size: 20px;
+	font-family: "Greta Sans Heavy Italic", sans-serif;
+	font-size: 48px;
 	line-height: 1;
-	font-weight: 400;
 	margin-bottom: .25em;
+	
 }
 
 h1,
@@ -32,7 +44,14 @@ ul {
 
 a,
 a:visited {
-	color: #555;
+	color: #f5f5f5;
+	font-weight: 600;
+	text-decoration: none;
+	transition: font-weight .25s ease-in;
+}
+
+a:hover {
+	font-weight: 200;
 }
 
 ul {
